@@ -3,16 +3,65 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
-
+.hidden{
+  display: none;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-
-
+a{
+  color: inherit;
+}
+/* 
+==========
+Header
+==========
+*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+.logo-container{
+  
+}
+.navbar{
+  
+  
+}
+.nav-item{
+  padding: .5rem;
+  display: inline;
+  color: white;
+}
+.nav-btn{
+  display: none;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* 
+==========
+Media queries  
+==========
+*/
+
+@media screen and (max-width:768px) {
+  .navbar{
+  display: none;
+  }
+}
+@media screen and (max-width:768px) {
+  .nav-btn{
+  display: block;
+  }
+}
