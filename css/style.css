@@ -9,13 +9,13 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-.hidden{
+.hidden {
   display: none;
 }
 /******************************************
 /* LAYOUT
 /*******************************************/
-a{
+a {
   color: inherit;
 }
 /* 
@@ -23,27 +23,40 @@ a{
 Header
 ==========
 */
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   background: black;
   color: white;
   padding: 1rem 2rem;
 }
-.logo-container{
-  
+.logo-container {
 }
-.navbar{
-  
-  
+.navbar {
 }
-.nav-item{
-  padding: .5rem;
+.nav-item {
+  padding: 0.5rem;
   display: inline;
   color: white;
 }
-.nav-btn{
+.nav-btn {
   display: none;
+}
+
+/* 
+==========
+Hero section
+==========
+*/
+
+.hero-section {
+  width: 100%;
+  max-height: 300px;
+}
+.hero-img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
 }
 /******************************************
 /* ADDITIONAL STYLES
@@ -55,13 +68,13 @@ Media queries
 ==========
 */
 
-@media screen and (max-width:768px) {
-  .navbar{
-  display: none;
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: none;
   }
 }
-@media screen and (max-width:768px) {
-  .nav-btn{
-  display: block;
+@media screen and (max-width: 768px) {
+  .nav-btn {
+    display: block;
   }
 }
