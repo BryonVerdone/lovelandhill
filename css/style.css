@@ -51,13 +51,46 @@ Hero section
 
 .hero-section {
   width: 100%;
-  max-height: 300px;
 }
 .hero-img {
   object-fit: cover;
   width: 100%;
   height: auto;
 }
+/* 
+==========
+Members section
+==========
+*/
+.members-section {
+}
+.section-heading {
+  text-align: center;
+  font-size: 2rem;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.member-card {
+  /* width: 100%; */
+}
+.card-img {
+  box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.77);
+}
+.card-content {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
